@@ -57,7 +57,7 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 - These roles are often associated with **shift work, long hours, and high stress**, which may contribute to **sleep problems**.  
 
 ### Gender Balance
-- Dataset is nearly balanced: **189 Males vs. 185 Fema**
+- Dataset is nearly balanced: **189 Males vs. 185 Females**
 
 
 ---
