@@ -39,24 +39,24 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 
 ## Insights
 
-## Sleep Duration & Quality
+### Sleep Duration & Quality
 - Average sleep duration is **~7.1 hours**, which aligns with recommended guidelines.  
 - However, many individuals still report **sleep disorders**, indicating **quality matters more than quantity**.  
 
-## Stress & Sleep
+### Stress & Sleep
 - Average stress level: **~5.4 (out of 10)**.  
 - Higher stress levels are commonly linked with lower sleep quality and presence of disorders like **insomnia**.  
 
-## Sleep Disorders
+### Sleep Disorders
 - **~40%** of participants have a sleep disorder.  
 - **Insomnia and Sleep Apnea** are almost equally prevalent.  
 - Participants without disorders generally report **better sleep quality and more consistent sleep duration**.  
 
-## Occupation Influence
+### Occupation Influence
 - **Healthcare professionals (Nurses & Doctors)** form the largest group.  
 - These roles are often associated with **shift work, long hours, and high stress**, which may contribute to **sleep problems**.  
 
-## Gender Balance
+### Gender Balance
 - Dataset is nearly balanced: **189 Males vs. 185 Fema**
 
 
