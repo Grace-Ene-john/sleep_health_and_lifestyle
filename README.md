@@ -23,11 +23,11 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 - *Size:* 1000+ transactions  
 
 ### Records (first 3 transactions)
-| InvoiceNo | StockCode | Description  | Quantity | InvoiceDate | UnitPrice | CustomerID | Country |
-|-----------|-----------|--------------|----------|-------------|-----------|------------|---------|
-| 537226    | 22728     | mobile a     | 6        | 12/1/2010   | 3.75      | 15311      | UK      |
-| 537227    | 22729     | mobile b     | 8        | 12/1/2010   | 5.00      | 15312      | UK      |
-| 537228    | 22730     | mobile c     | 2        | 12/1/2010   | 7.50      | 15313      | UK      |
+| Person ID | Gender | Age | Occupation         | Sleep Duration | Quality of Sleep | Physical Activity Level | Stress Level | BMI Category | Blood Pressure | Heart Rate | Daily Steps | Sleep Disorder |
+|-----------|--------|-----|--------------------|----------------|------------------|-------------------------|--------------|--------------|----------------|------------|-------------|----------------|
+| 1         | Male   | 27  | Software Engineer  | 6.1            | 6                | 42                      | 6            | Overweight   | 126/83         | 77         | 4200        | None           |
+| 2         | Male   | 28  | Doctor             | 6.2            | 6                | 60                      | 8            | Normal       | 125/80         | 75         | 10000       | None           |
+| 3         | Male   | 28  | Doctor             | 6.2            | 6                | 60                      | 8            | Normal       | 125/80         | 75         | 10000       | None           |
 
 ---
 
@@ -37,15 +37,28 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 - *SQL* → Data Extraction & Queries  
 - *GitHub* → Portfolio & Project Documentation
 
-## Key Insights
-- *Total Revenue:* 40.22M  
-- *Top Gender by Sales:* Female & Other (13.47M each)  
-- *Top Payment Method:* Credit Card (11.30M)  
-- *Best-Selling Model:* "huge" (283K revenue)  
-- *Top Location by Sales:* Lake Amanda (186K)  
-- *Top Mobile Model:* Huge model (282.86K revenue).  
-- *Gender Split:* Sales are evenly distributed across Male, Female, and Other.  
-- *Online Payments:* Strong growth, generating 10.28M in revenue.  
+## Insights
+
+## Sleep Duration & Quality
+- Average sleep duration is **~7.1 hours**, which aligns with recommended guidelines.  
+- However, many individuals still report **sleep disorders**, indicating **quality matters more than quantity**.  
+
+## Stress & Sleep
+- Average stress level: **~5.4 (out of 10)**.  
+- Higher stress levels are commonly linked with lower sleep quality and presence of disorders like **insomnia**.  
+
+## Sleep Disorders
+- **~40%** of participants have a sleep disorder.  
+- **Insomnia and Sleep Apnea** are almost equally prevalent.  
+- Participants without disorders generally report **better sleep quality and more consistent sleep duration**.  
+
+## Occupation Influence
+- **Healthcare professionals (Nurses & Doctors)** form the largest group.  
+- These roles are often associated with **shift work, long hours, and high stress**, which may contribute to **sleep problems**.  
+
+## Gender Balance
+- Dataset is nearly balanced: **189 Males vs. 185 Fema**
+
 
 ---
 
