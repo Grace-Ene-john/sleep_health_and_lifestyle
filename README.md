@@ -10,9 +10,7 @@
 - [Profile](#--profile)
 
 ## Project Overview  
-This project analyzes mobile phone sales data sourced from Kaggle.  
-The goal is to uncover customer purchasing trends, payment preferences, and product performance across different demographics and locations.  
-
+To analyze lifestyle, demographic, and health factors that influence sleep quality and the prevalence of sleep disorders (Insomnia & Sleep Apnea). 
 Dashboards and reports were built using *Power BI, Excel, and SQL* to provide actionable business insights.  
 
 ---
