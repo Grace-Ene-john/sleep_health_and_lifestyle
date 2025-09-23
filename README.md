@@ -64,7 +64,8 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 
 ## Visualization
 
-<img width="1396" height="725" alt="Screenshot 2025-09-22 112548" src="https://github.com/user-attachments/assets/f80a3e73-d58a-47ca-945a-ab99b6b62394" />
+<img width="943" height="479" alt="image" src="https://github.com/user-attachments/assets/5c38b213-e9f9-41ca-9fcb-f5410e5bf5b0" />
+
 
 ---
 
@@ -72,11 +73,24 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 The following SQL queries were used to extract key insights from the dataset
    
 ```sql
----Find the most expensive brand----
-SELECT TOP 1 Brand, MAX(UnitPrice) AS HighestPrice
-FROM mobile_sales
-GROUP BY Brand
-ORDER BY HighestPrice DESC;
+---Average Sleep Duration by Occupation---
+SELECT 
+    Occupation,
+    ROUND(AVG([Sleep Duration]), 2) AS Avg_Sleep_Hours
+FROM SleepData
+GROUP BY Occupation
+ORDER BY Avg_Sleep_Hours DESC;
+```
+
+```sql
+---Sleep Disorder Distribution by Gender---
+SELECT 
+    Gender,
+    [Sleep Disorder],
+    COUNT(*) AS Num_People
+FROM SleepData
+GROUP BY Gender, [Sleep Disorder]
+ORDER BY Gender, Num_People DESC;
 ```
 
 ## Profile
