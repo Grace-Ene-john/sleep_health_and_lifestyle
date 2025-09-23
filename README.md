@@ -61,7 +61,7 @@ Dashboards and reports were built using *Power BI, Excel, and SQL* to provide ac
 ---
 
 ## Visualization
-
+<img width="931" height="101" alt="image" src="https://github.com/user-attachments/assets/c049963c-31dd-4203-baa7-eeff94cff4e5" />
 <img width="943" height="479" alt="image" src="https://github.com/user-attachments/assets/5c38b213-e9f9-41ca-9fcb-f5410e5bf5b0" />
 
 
